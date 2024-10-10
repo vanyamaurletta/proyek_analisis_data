@@ -50,8 +50,8 @@ def create_working_holiday_weekend(days_df):
     return working_holiday_weekend
 
 # read csv
-days_df = pd.read_csv("days.csv")
-hours_df = pd.read_csv("hours.csv")
+days_df = pd.read_csv("/Users/vanyamaurletta/Downloads/proyek_analisis_data/dashboard/days.csv")
+hours_df = pd.read_csv("/Users/vanyamaurletta/Downloads/proyek_analisis_data/dashboard/hours.csv")
 
 days_df.sort_values(by="dteday", inplace=True)
 days_df.reset_index(inplace=True)
