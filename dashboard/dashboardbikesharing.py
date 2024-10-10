@@ -7,7 +7,7 @@ from babel.numbers import format_currency
 sns.set(style='dark')
 
 # jumlah penyewaan sepeda tiap jam
-# perubahan
+# perubahan baru 
 def create_hourly_bike_sharing_df(hours_df):
     hourly_bike_sharing_df =  hours_df.groupby(by="hour").agg({
         "counts": "sum"})
