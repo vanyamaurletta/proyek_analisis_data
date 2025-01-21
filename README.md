@@ -1,4 +1,4 @@
-# How to run Bke Sharing Rental Dashboard ✨
+# How to run Bike Sharing Rental Dashboard ✨
 
 ## Download notebook.ipynb
 1. Download this notebook
